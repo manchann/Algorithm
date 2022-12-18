@@ -16,7 +16,7 @@ arr = list(map(int, input().split())
 ```
 
 - N행으로 이루어진 2차원 배열 입력
-``
+```
 N = int(input()) # 행렬의 크기
 
 arr = [list(map(int, input().split())) for _ in range(N)]
